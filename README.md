@@ -14,9 +14,19 @@ To illustrate the point of how Jackson can handle multiple formats, here's a per
 
 ```javascript
 {
-   "start" : "2016-06-30T04:00:00.000Z",
-   "stop" : 1234567890123
+   "start" : 1467288000000,
+   "stop" : "2016-06-30T12:00:00.000Z"
 }
 ```
+
+Here's another using a different format for the Date/Timestamp (with Timezone offset)
+```javascript
+{
+   "start" : 1467288000000,
+   "stop" : "2016-06-30T08:00:00.000-04:00"
+}
+```
+
+All of these representations of date/time are for same instance in time.
 
 Try it out against the endpoint this app provides.

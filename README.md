@@ -18,3 +18,5 @@ To illustrate the point of how Jackson can handle multiple formats, here's a per
    "stop" : 1234567890123
 }
 ```
+
+Try it out against the endpoint this app provides.

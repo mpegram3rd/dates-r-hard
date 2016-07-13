@@ -27,6 +27,6 @@ Here's another using a different format for the Date/Timestamp (with Timezone of
 }
 ```
 
-All of these representations of date/time are for same instance in time.
+All of these representations of date/time are for the same instance in time.
 
 Try it out against the endpoint this app provides.

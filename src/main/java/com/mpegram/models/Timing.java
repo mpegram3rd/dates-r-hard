@@ -11,7 +11,7 @@ public class Timing {
     private Date stop;
 
     public Date getStart() {
-        return start;
+        return start == null ? null : new Date(start.getTime());
     }
 
     public void setStart(Date start) {
@@ -19,7 +19,7 @@ public class Timing {
     }
 
     public Date getStop() {
-        return stop;
+        return stop == null ? null : new Date(stop.getTime()) ;
     }
 
     public void setStop(Date stop) {
